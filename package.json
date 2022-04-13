@@ -1,0 +1,20 @@
+{
+  "name": "vue3vitewordpressthemetemplate",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/wp-content/themes/Test/",
+    "preview": "vite preview --port 5050",
+    "watch": "vite build --base=/wp-content/themes/Test/ --watch"
+  },
+  "dependencies": {
+    "pinia": "^2.0.13",
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "fast-glob": "^3.2.11",
+    "vite": "^2.9.1"
+  }
+}
