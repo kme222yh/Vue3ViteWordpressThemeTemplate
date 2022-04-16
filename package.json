@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/wp-content/themes/Test/",
+    "build": "vite build --base=/wp-content/themes/{YourThemeName}/",
     "preview": "vite preview --port 5050",
-    "watch": "vite build --base=/wp-content/themes/Test/ --watch"
+    "watch": "vite build --base=/wp-content/themes/{YourThemeName}/ --watch"
   },
   "dependencies": {
     "pinia": "^2.0.13",
